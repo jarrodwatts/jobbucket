@@ -1,0 +1,40 @@
+{
+  "name": "nextjs-with-typescript",
+  "version": "5.0.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "1.x",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "autosuggest-highlight": "^3.1.1",
+    "clsx": "latest",
+    "date-fns": "^2.16.1",
+    "dotenv": "^8.2.0",
+    "firebase": "^8.2.1",
+    "formik": "^2.2.6",
+    "formik-material-ui": "^3.0.1",
+    "formik-material-ui-lab": "^0.0.8",
+    "formik-material-ui-pickers": "^0.0.12",
+    "lodash": "^4.17.20",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
